@@ -299,7 +299,7 @@ body.nav-open { overflow: hidden; }
 .slider-track { display: flex; transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1); }
 .slider-track.is-dragging { transition: none; }
 .slider-slide { flex: 0 0 100%; min-width: 0; }
-.slider-slide img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.slider-slide img { width: 100%; height: auto; object-fit: contain; background: var(--surface); }
 .slider-nav {
   position: absolute; top: 50%; transform: translateY(-50%);
   width: 44px; height: 44px; border-radius: 50%;
